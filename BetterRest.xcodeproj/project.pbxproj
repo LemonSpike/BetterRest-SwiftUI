@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD5DB960261D0D9E001C1071 /* DatesAndTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DB95F261D0D9E001C1071 /* DatesAndTimes.swift */; };
+		FD5DB963261D0F37001C1071 /* WorkingWithDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DB962261D0F37001C1071 /* WorkingWithDates.swift */; };
+		FD5DB966261D1739001C1071 /* BuildingABasicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DB965261D1739001C1071 /* BuildingABasicLayout.swift */; };
+		FD5DB969261D18C8001C1071 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD5DB968261D18C8001C1071 /* SleepCalculator.mlmodel */; };
+		FD5DB96D261E66F3001C1071 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5DB96C261E66F3001C1071 /* Challenge.swift */; };
 		FDA17109261CD9880072C1A9 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA17108261CD9880072C1A9 /* BetterRestApp.swift */; };
 		FDA1710B261CD9880072C1A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA1710A261CD9880072C1A9 /* ContentView.swift */; };
 		FDA1710D261CD98D0072C1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA1710C261CD98D0072C1A9 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD5DB95F261D0D9E001C1071 /* DatesAndTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesAndTimes.swift; sourceTree = "<group>"; };
+		FD5DB962261D0F37001C1071 /* WorkingWithDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithDates.swift; sourceTree = "<group>"; };
+		FD5DB965261D1739001C1071 /* BuildingABasicLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingABasicLayout.swift; sourceTree = "<group>"; };
+		FD5DB968261D18C8001C1071 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		FD5DB96C261E66F3001C1071 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		FDA17105261CD9880072C1A9 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA17108261CD9880072C1A9 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
 		FDA1710A261CD9880072C1A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +65,11 @@
 			children = (
 				FDA17108261CD9880072C1A9 /* BetterRestApp.swift */,
 				FDA1710A261CD9880072C1A9 /* ContentView.swift */,
+				FD5DB95F261D0D9E001C1071 /* DatesAndTimes.swift */,
+				FD5DB962261D0F37001C1071 /* WorkingWithDates.swift */,
+				FD5DB965261D1739001C1071 /* BuildingABasicLayout.swift */,
+				FD5DB96C261E66F3001C1071 /* Challenge.swift */,
+				FD5DB968261D18C8001C1071 /* SleepCalculator.mlmodel */,
 				FDA1710C261CD98D0072C1A9 /* Assets.xcassets */,
 				FDA17111261CD98D0072C1A9 /* Info.plist */,
 				FDA17112261CD98D0072C1A9 /* BetterRest.entitlements */,
@@ -140,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5DB96D261E66F3001C1071 /* Challenge.swift in Sources */,
+				FD5DB966261D1739001C1071 /* BuildingABasicLayout.swift in Sources */,
+				FD5DB960261D0D9E001C1071 /* DatesAndTimes.swift in Sources */,
 				FDA1710B261CD9880072C1A9 /* ContentView.swift in Sources */,
 				FDA17109261CD9880072C1A9 /* BetterRestApp.swift in Sources */,
+				FD5DB969261D18C8001C1071 /* SleepCalculator.mlmodel in Sources */,
+				FD5DB963261D0F37001C1071 /* WorkingWithDates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +301,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.BetterRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -303,6 +324,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.BetterRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
